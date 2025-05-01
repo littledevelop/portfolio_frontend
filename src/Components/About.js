@@ -18,7 +18,7 @@ const About = () => {
       <section className="education-section">
         <h2>Education</h2>
         <div className="education-card">
-          <h3>Bachelor's in Computer Science</h3>
+          <h3>Bachelor's in Computer Application</h3>
           <p className="institution">Udhna academy college of computer application and Information Technology</p>
           <p className="period">2010-2013</p>
           <p className="location">Surat</p>
