@@ -1,12 +1,12 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import { Contact } from './Contact';
 
 
 const Home = React.lazy(() => import('./Components/Home'));
 const About = React.lazy(() => import('./Components/About'));
 const Projects = React.lazy(() => import('./Components/Projects'));
+const Contact = React.lazy(() => import('./Components/Contact'));
 const Blog = React.lazy(() => import('./Components/Blog'));
 const BlogPost = React.lazy(() => import('./Components/BlogPost')); // New Component
 const Navbar = React.lazy(() => import('./Components/Navbar'));
